@@ -1,23 +1,44 @@
-import logo from './logo.svg';
 import './App.css';
+import { useState } from 'react';
+import Navbar from './components/Navbar';
+import AboutPage from './Pages/AboutPage';
+import NotePage from './Pages/NotePage';
+import ContactPage from './Pages/ContactPage';
+import GamePage from './Pages/GamePage';
+import WebPage from './Pages/WebPage';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+  const [displayNav,setDisplayNav] = useState(false);
+  const [nowPage, setNowPage] = useState("about");
+  let page;
+  switch(nowPage){
+    case 'about':
+      page = <AboutPage/>
+      break;
+    case 'note':
+      page = <NotePage/>
+      break;
+    case 'contact':
+      page = <ContactPage/>
+      break;
+    case 'game':
+      page = <GamePage/>
+      break;
+    case 'web':
+      page = <WebPage/>
+      break;
+
+  }
+  
+  return ( 
+    <div className={"App"}>
+      <Navbar display = {displayNav} setNowPage = {(page)=>setNowPage(page)}/>
+      <div style={{overflowY: "auto" ,height: "100vh", width: "100vw"}}>{page}</div>
+      <div className="option" onClick = {()=>setDisplayNav(prev=>!prev)}>
+          <div className="line"></div>
+          <div className="line"></div>
+          <div className="line"></div>
+      </div>
     </div>
   );
 }
