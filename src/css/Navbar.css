@@ -1,0 +1,59 @@
+.navbar{
+    display:grid;
+    grid-template-rows: 5fr 1fr 1fr 1fr 1fr 1fr;
+    min-height: 100vh;
+    transition-duration: 0.2s;
+    background-color: black;
+}
+
+.nav-button{
+    border-style: none;
+    font-size: 15px;
+    width: 100%;
+    font-family:'Times New Roman', Times, serif;
+    background-color: transparent;
+    color: white;
+}
+
+.nav-button:hover{
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.picture-container{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    position: relative;
+    width: 100%;
+}
+
+.wojak-picture{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 70px;
+    height: 70px;
+    background-color: palegreen;
+    border-radius: 50%;
+    border-style: solid;
+    border-color: white;
+    border-width: 5px;
+}
+
+.select {
+    background: linear-gradient(to bottom left,black, lightgray, lightgray, black);
+    color: gray;
+}
+
+.gray-squre{
+    background: linear-gradient(to bottom, gray, lightgray);;
+    border-bottom-color: white;
+    border-bottom-style: solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    font-weight:bold;
+    font-family:serif;
+}
