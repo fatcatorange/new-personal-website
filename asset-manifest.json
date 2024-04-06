@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/new-personal-website/static/css/main.44e15b26.css",
-    "main.js": "/new-personal-website/static/js/main.dd9a1b84.js",
+    "main.css": "/new-personal-website/static/css/main.b2d7047a.css",
+    "main.js": "/new-personal-website/static/js/main.a3503f1b.js",
     "static/js/453.253ccfac.chunk.js": "/new-personal-website/static/js/453.253ccfac.chunk.js",
     "static/media/rpg_game.png": "/new-personal-website/static/media/rpg_game.022301d226670022b29f.png",
     "static/media/shoot_game.png": "/new-personal-website/static/media/shoot_game.cdb53fa02f6a69bcacb4.png",
@@ -12,12 +12,12 @@
     "static/media/gmail.png": "/new-personal-website/static/media/gmail.0d5e86f42ea347e03fe6.png",
     "static/media/leetcode.webp": "/new-personal-website/static/media/leetcode.b0b6d8d41898b188dc5e.webp",
     "index.html": "/new-personal-website/index.html",
-    "main.44e15b26.css.map": "/new-personal-website/static/css/main.44e15b26.css.map",
-    "main.dd9a1b84.js.map": "/new-personal-website/static/js/main.dd9a1b84.js.map",
+    "main.b2d7047a.css.map": "/new-personal-website/static/css/main.b2d7047a.css.map",
+    "main.a3503f1b.js.map": "/new-personal-website/static/js/main.a3503f1b.js.map",
     "453.253ccfac.chunk.js.map": "/new-personal-website/static/js/453.253ccfac.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.44e15b26.css",
-    "static/js/main.dd9a1b84.js"
+    "static/css/main.b2d7047a.css",
+    "static/js/main.a3503f1b.js"
   ]
 }
